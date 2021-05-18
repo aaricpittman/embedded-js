@@ -1,0 +1,6 @@
+{
+  "package_manager": "yarn",
+  "gems": [
+    "dummy_engine"
+  ]
+}

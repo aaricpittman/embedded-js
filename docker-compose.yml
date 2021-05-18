@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  gem:
+    build: .
+    command: /bin/bash
+    image: embedded-js:dev
+    stdin_open: true
+    tty: true
+    volumes:
+      - bundle:/usr/local/bundle
+      - .:/gem:delegated
+      - "${HOME}/.gitconfig:/root/.gitconfig"
+    working_dir: /gem
+volumes:
+  bundle:

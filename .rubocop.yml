@@ -1,0 +1,6 @@
+AllCops:
+  Exclude:
+    - node_modules/**/*
+    - spec/dummy_app/**/*
+    - spec/dummy_engine/**/*
+  NewCops: enable
