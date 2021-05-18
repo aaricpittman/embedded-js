@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     embedded_js (0.1.0)
-      thor (>= 1.0.0)
+      thor (~> 1.0, >= 1.0.0)
 
 PATH
   remote: spec/dummy_engine
